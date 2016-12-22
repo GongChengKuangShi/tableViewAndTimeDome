@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/apple/Desktop/TableViewGroup/TableViewGroup/Views/BillHeadView.m \
-  /Users/apple/Desktop/TableViewGroup/TableViewGroup/Views/BillHeadView.h
+  /Users/apple/Desktop/tableViewAndTimeDemo/tableViewAndTimeDome/TableViewGroup/TableViewGroup/Views/BillHeadView.m \
+  /Users/apple/Desktop/tableViewAndTimeDemo/tableViewAndTimeDome/TableViewGroup/TableViewGroup/Views/BillHeadView.h

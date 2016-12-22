@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/apple/Desktop/TableViewGroup/TableViewGroup/AppDelegate.m \
-  /Users/apple/Desktop/TableViewGroup/TableViewGroup/AppDelegate.h
+  /Users/apple/Desktop/tableViewAndTimeDemo/tableViewAndTimeDome/TableViewGroup/TableViewGroup/AppDelegate.m \
+  /Users/apple/Desktop/tableViewAndTimeDemo/tableViewAndTimeDome/TableViewGroup/TableViewGroup/AppDelegate.h

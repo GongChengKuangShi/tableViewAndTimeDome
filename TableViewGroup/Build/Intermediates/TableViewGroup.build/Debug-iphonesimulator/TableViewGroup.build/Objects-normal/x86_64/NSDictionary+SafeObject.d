@@ -1,2 +1,2 @@
 dependencies: \
-  /Users/apple/Desktop/TableViewGroup/TableViewGroup/Share/NSDictionary+SafeObject.m
+  /Users/apple/Desktop/tableViewAndTimeDemo/tableViewAndTimeDome/TableViewGroup/TableViewGroup/Share/NSDictionary+SafeObject.m

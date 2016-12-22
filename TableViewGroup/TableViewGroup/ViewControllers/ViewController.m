@@ -13,7 +13,6 @@
 #import "BillEmptyCell.h"
 #import "BillTableViewCell.h"
 
-
 @interface ViewController () <UITableViewDelegate,UITableViewDataSource>
 
 @property (strong, nonatomic) BaseTableView *tableView;
@@ -93,8 +92,8 @@ static NSString *billEmptyCell = @"BillEmptyCellID";
 - (void)loadTableViewDataWithDictionary:(NSDictionary *)data {
     NSString *leftString = [NSString stringWithFormat:@"%@",[data safeObjectForKey:@"acountBalance"]];
     NSString *rightString = [data safeObjectForKey:@"withdrawingAmount"];
-    _billTableHeadView.leftLabel.text = [leftString stringFormatterCurrencyStyle];
-    _billTableHeadView.rightLabel.text = [rightString stringFormatterCurrencyStyle];
+    self.billTableHeadView.leftLabel.text = [leftString stringFormatterCurrencyStyle];
+    self.billTableHeadView.rightLabel.text = [rightString stringFormatterCurrencyStyle];
     if ([data checkObjectExit:@"actionMap"]) {
         NSDictionary *mapDictionary = [data objectForKey:@"actionMap"];
         self.actionMapDictionary = mapDictionary;
@@ -179,7 +178,6 @@ static NSString *billEmptyCell = @"BillEmptyCellID";
     for (int i = 0; i < array.count; i++) {
         NSDictionary *item = [array objectAtIndex:i];
         NSString *ctimeString = [NSString stringWithFormat:@"%@",[item safeObjectForKey:@"ctime"]];
-//        NSString *timeString = [ctimeString timeWithTimeIntervalStringToDay];
         if (![self.tempDateSet containsObject:ctimeString]) {
             [self.tempDateSet addObject:ctimeString];
             NSMutableArray *tempList = [[NSMutableArray alloc] init];

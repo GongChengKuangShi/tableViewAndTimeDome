@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/apple/Desktop/TableViewGroup/TableViewGroup/Share/BaseTableView.m \
-  /Users/apple/Desktop/TableViewGroup/TableViewGroup/Share/BaseTableView.h
+  /Users/apple/Desktop/tableViewAndTimeDemo/tableViewAndTimeDome/TableViewGroup/TableViewGroup/Share/BaseTableView.m \
+  /Users/apple/Desktop/tableViewAndTimeDemo/tableViewAndTimeDome/TableViewGroup/TableViewGroup/Share/BaseTableView.h
